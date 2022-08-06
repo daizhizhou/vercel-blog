@@ -26,7 +26,6 @@ module.exports = {
       { "icon" : "reco-bilibili", "link": 'https://space.bilibili.com/2931347' },
       { "icon" : "reco-bokeyuan", "link": 'https://www.cnblogs.com/mindzone' },
       { "icon" : "reco-mayun", "link": 'https://gitee.com/daizhizhou' }
-      
     ],
     "valineConfig": {
       "appId": 'Iobd1dNK8fqC6zIHjKgqsSfd-gzGzoHsz',// your appId
@@ -34,17 +33,17 @@ module.exports = {
     },
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "文档",
         "icon": "reco-message",
         "items": [
           {
@@ -54,14 +53,29 @@ module.exports = {
         ]
       },
       {
-        "text": "Contact",
+        "text": "其他链接",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/daizhizhou",
             "icon": "reco-github"
-          }
+          },
+          {
+            "text": "Gitee仓库",
+            "link": "https://github.com/daizhizhou",
+            "icon": "reco-mayun"
+          },
+          {
+            "text": "博客园",
+            "link": "https://www.cnblogs.com/mindzone",
+            "icon": "reco-bokeyuan"
+          },
+          {
+            "text": "哔哩哔哩",
+            "link": "https://space.bilibili.com/2931347",
+            "icon": "reco-bilibili"
+          },
         ]
       }
     ],
@@ -77,11 +91,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "文章分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "文章标签"
       }
     },
     "friendLink": [
