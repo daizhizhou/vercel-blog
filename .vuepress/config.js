@@ -1,4 +1,9 @@
 module.exports = {
+  "locales": {
+    '/': {
+      "lang": 'zh-CN'
+    }
+  },
   "title": "Cloud9's-Blog",
   "description": "",
   "dest": "public",
