@@ -20,6 +20,18 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "subSidebar": "auto",
+    "socialLinks": [    
+      { "icon" : "reco-github", "link": 'https://github.com/daizhizhou' },
+      { "icon" : "reco-bilibili", "link": 'https://space.bilibili.com/2931347' },
+      { "icon" : "reco-bokeyuan", "link": 'https://www.cnblogs.com/mindzone' },
+      { "icon" : "reco-mayun", "link": 'https://gitee.com/daizhizhou' }
+      
+    ],
+    "valineConfig": {
+      "appId": 'Iobd1dNK8fqC6zIHjKgqsSfd-gzGzoHsz',// your appId
+      "appKey": 'oTK7ws7zd4kDTtPIKT8uGCtx', // your appKey
+    },
     "nav": [
       {
         "text": "Home",
@@ -93,7 +105,7 @@ module.exports = {
     "author": "Cloud9",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2022"
   },
   "markdown": {
     "lineNumbers": true
