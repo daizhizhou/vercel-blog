@@ -12,6 +12,13 @@
   },
   "description": "",
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-comments": "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.13",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.13",
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.13",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.13",
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1"
   }
 }
