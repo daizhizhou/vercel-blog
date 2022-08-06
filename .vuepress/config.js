@@ -5,7 +5,7 @@ module.exports = {
     }
   },
   "title": "Cloud9's-Blog",
-  "description": "",
+  "description": "qsadhgqsdmqsduyqwd",
   "dest": "public",
   "head": [
     [
@@ -25,13 +25,25 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "locales": {
+      '/': {
+        "recoLocales": {
+          "homeBlog": {
+            "article": '文章', // 默认 文章
+            "tag": '标签', // 默认 标签
+            "category": '分类', // 默认 分类
+            "friendLink": '友情链接' // 默认 友情链接
+          },
+          "pagation": {
+            prev: '上一页',
+            next: '下一页',
+            go: '前往',
+            jump: '跳转至'
+          }
+        }
+      }
+    },
     "subSidebar": "auto",
-    "socialLinks": [    
-      { "icon" : "reco-github", "link": 'https://github.com/daizhizhou' },
-      { "icon" : "reco-bilibili", "link": 'https://space.bilibili.com/2931347' },
-      { "icon" : "reco-bokeyuan", "link": 'https://www.cnblogs.com/mindzone' },
-      { "icon" : "reco-mayun", "link": 'https://gitee.com/daizhizhou' }
-    ],
     "valineConfig": {
       "appId": 'Iobd1dNK8fqC6zIHjKgqsSfd-gzGzoHsz',// your appId
       "appKey": 'oTK7ws7zd4kDTtPIKT8uGCtx', // your appKey
@@ -101,7 +113,13 @@ module.exports = {
       "tag": {
         "location": 3,
         "text": "文章标签"
-      }
+      },
+      "socialLinks": [
+        { "icon" : "reco-github", "link": 'https://github.com/daizhizhou' },
+        { "icon" : "reco-bilibili", "link": 'https://space.bilibili.com/2931347' },
+        { "icon" : "reco-bokeyuan", "link": 'https://www.cnblogs.com/mindzone' },
+        { "icon" : "reco-mayun", "link": 'https://gitee.com/daizhizhou' }
+      ]
     },
     "friendLink": [
       {
