@@ -1,12 +1,12 @@
 module.exports = {
+  title: 'Cloud9的空间',
+  description: 'Just playing around',
+  "dest": "public",
   "locales": {
     '/': {
       "lang": 'zh-CN'
     }
   },
-  "title": "Cloud9's-Blog",
-  "description": "qsadhgqsdmqsduyqwd",
-  "dest": "public",
   "head": [
     [
       "link",

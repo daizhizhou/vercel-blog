@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Silent1376
+tagline: Emancipate the mind,Seek truth from the facts
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
